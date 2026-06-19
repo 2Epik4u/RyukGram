@@ -102,10 +102,12 @@
 "Copy comment text" = "Копировать текст комментария";
 "Copy description" = "Копировать описание";
 "Copy description text fields by long-pressing on them" = "Копировать поля описания долгим нажатием";
-"Custom music sticker color" = "Свой цвет музыкального стикера";
+"Custom sticker colors" = "Свои цвета стикеров";
+"Custom colors aren't supported for this sticker" = "Свои цвета не поддерживаются для этого стикера";
 "Date format" = "Формат даты";
 "Disable app haptics" = "Отключить тактильную отдачу";
 "Disables haptics/vibrations within the app" = "Отключает тактильную отдачу и вибрацию в приложении";
+"Disables liquid glass for accounts that have it enabled by default. Overrides the options above" = "Отключает Liquid Glass для аккаунтов, где он включён по умолчанию. Переопределяет параметры выше";
 "Do not save recent searches" = "Не сохранять недавние поиски";
 "Download GIF & image comments" = "Скачивать GIF и изображения в комментариях";
 "Download image" = "Скачать изображение";
@@ -146,9 +148,12 @@
 "Hold down on the Instagram logo to change the app icon" = "Удерживайте логотип Instagram, чтобы сменить иконку приложения";
 "Lets the photo sticker picker show videos too, not just photos" = "Позволяет в галерее фото‑стикера показывать также видео, а не только фото";
 "Liquid glass tab bar" = "Панель вкладок Liquid Glass";
+"Force liquid glass off" = "Принудительно отключить Liquid Glass";
+"Force progressive blur" = "Принудительное прогрессивное размытие";
+"Keeps the iOS 26 scroll-edge blur visible instead of letting it fade out" = "Сохраняет размытие края прокрутки iOS 26 видимым, не давая ему исчезнуть";
 "Live" = "Прямые трансляции";
 "Long press on the eyedropper tool in stories to customize the text color more precisely" = "Удерживайте пипетку в историях, чтобы точнее настроить цвет текста";
-"Long-press the color wheel on a music or lyric sticker to pick any solid or gradient color" = "Зажмите цветовое колесо на музыкальном стикере или стикере с текстом песни, чтобы выбрать любой сплошной цвет или градиент";
+"Long-press the color wheel in sticker editors to pick any solid or gradient color" = "Зажмите цветовое колесо в редакторе стикеров, чтобы выбрать любой сплошной цвет или градиент";
 "Long-press the heart button in a live to hide or show the comments" = "Удерживайте кнопку сердца в прямой трансляции, чтобы скрыть или показать комментарии";
 "Long-press the search tab to open a copied Instagram link" = "Удерживайте вкладку поиска, чтобы открыть скопированную ссылку Instagram";
 "Master switch. When off, all per-surface toggles below are ignored." = "Главный переключатель. Когда выключен, все переключатели ниже игнорируются.";
@@ -203,18 +208,19 @@
 "%ldh" = "%ldч";
 "%ldm" = "%ldм";
 "%ldw" = "%ldн";
-"Alternate" = "Альтернативный";
 "Always ask" = "Всегда спрашивать";
 "Balanced" = "Сбалансированный";
 "Block all" = "Блокировать всё";
 "Block selected" = "Блокировать выбранное";
 "Button" = "Кнопка";
-"Classic" = "Классический";
 "Date format — %@" = "Формат даты — %@";
 "Default" = "По умолчанию";
 "Disabled" = "Выключено";
 "Download and share" = "Скачать и поделиться";
 "Download to Photos" = "Скачать в Фото";
+"Save with music" = "Сохранить с музыкой";
+"Gallery with music" = "В галерею с музыкой";
+"Photo with music" = "Фото с музыкой";
 "Enabled" = "Включено";
 "Expand" = "Развернуть";
 "Explore" = "Обзор";
@@ -262,6 +268,8 @@
 "Hide repost button" = "Скрыть кнопку репоста";
 "Hide stories tray" = "Скрыть панель историй";
 "Hide suggested stories" = "Скрыть рекомендуемые истории";
+"Hide story highlights" = "Скрыть актуальное из историй";
+"Removes resurfaced highlights from the stories tray in feed" = "Убирает повторно появляющееся актуальное из ленты историй";
 "Hides suggested accounts" = "Скрывает рекомендуемые аккаунты";
 "Hides suggested reels" = "Скрывает рекомендуемые рилсы";
 "Hides suggested threads posts" = "Скрывает рекомендуемые посты Threads";
@@ -296,6 +304,10 @@
 "Copy GIF link" = "Копировать ссылку GIF";
 "Copy image link" = "Копировать ссылку на изображение";
 "Custom GIF in comments" = "Свой GIF в комментариях";
+"Favorite GIFs" = "Избранные GIF";
+"Long-press a GIF in the picker to pin it — favorites show first" = "Удерживайте GIF в подборщике, чтобы закрепить его — избранные показываются первыми";
+"Added to favorites" = "Добавлено в избранное";
+"Removed from favorites" = "Удалено из избранного";
 "Failed to build GIF model" = "Не удалось создать модель GIF";
 "GIF link copied" = "Ссылка GIF скопирована";
 "Image" = "Изображение";
@@ -313,7 +325,6 @@
 
 "Adds a RyukGram action button above the reel sidebar with view-cover/download/share/copy/expand/repost entries. Tap opens the menu by default; change the tap behavior below." = "Добавляет кнопку действий RyukGram над боковой панелью рилса с пунктами посмотреть обложку/скачать/поделиться/копировать/развернуть/репост. По умолчанию нажатие открывает меню; поведение можно изменить ниже.";
 "Always show progress scrubber" = "Всегда показывать полосу прогресса";
-"Auto-scroll reels" = "Автопрокрутка рилсов";
 "Change what happens when you tap on a reel" = "Изменить действие при нажатии на рилс";
 "Confirm reel refresh" = "Подтверждать обновление рилсов";
 "Custom speed" = "Своя скорость";
@@ -336,7 +347,6 @@
 "Hiding" = "Скрытие";
 "Hold the 3-dot on any reel to open speed picker" = "Удерживайте «три точки» на любом Reel, чтобы открыть выбор скорости";
 "IG default" = "IG по умолчанию";
-"IG default: native behavior. RyukGram: re-advances after swiping back." = "IG по умолчанию: стандартное поведение. RyukGram: снова продвигает вперёд после свайпа назад.";
 "Limits" = "Ограничения";
 "Limits the amount of reels available to scroll at any given time, and prevents refreshing" = "Ограничивает количество рилсов, доступных для прокрутки в любой момент, и запрещает обновление";
 "Only loads %@ %@" = "Загружает только %@ %@";
@@ -363,6 +373,8 @@
 
 "Adds a button to filter & sort any followers/following list. Resets when you leave." = "Добавляет кнопку для фильтрации и сортировки любого списка подписчиков/подписок. Сбрасывается при выходе.";
 "Adds a view option to the highlight long-press menu to open the cover in full-screen" = "Добавляет пункт просмотра в меню удержания хайлайта, чтобы открыть обложку во весь экран";
+"Adds the like count to each card" = "Добавляет число лайков на каждую карточку";
+"Adds the upload date to each card" = "Добавляет дату публикации на каждую карточку";
 "Copy note on long press" = "Копировать заметку по удержанию";
 "Extra stats shown on each post and reel card in profile grids." = "Дополнительная статистика на каждой карточке поста и рилса в сетках профиля.";
 "Fake follower count" = "Поддельное число подписчиков";
@@ -392,6 +404,8 @@
 "Show full follower count" = "Показывать полное число подписчиков";
 "Show full post count" = "Показывать полное число публикаций";
 "Show like count" = "Показать число лайков";
+"Show the custom number set below" = "Показывает заданное ниже число";
+"Show the exact number instead of a shortened one" = "Показывает точное число вместо сокращённого";
 "Show upload date" = "Показать дату публикации";
 "Shows whether the profile user follows you" = "Показывает, подписан ли пользователь профиля на вас";
 "Tap to set" = "Нажмите, чтобы задать";
@@ -468,6 +482,7 @@
 
 "Adds a RyukGram action button next to the eye button on stories with download/share/copy/expand/repost/view-mentions entries. Tap opens the menu by default; change the tap behavior below." = "Добавляет кнопку действий RyukGram рядом с кнопкой глаза в историях с пунктами скачать/поделиться/копировать/развернуть/репост/посмотреть упоминания. По умолчанию нажатие открывает меню; поведение можно изменить ниже.";
 "Adds a speaker button to the story overlay to unmute/mute audio. Also available in the 3-dot menu" = "Добавляет кнопку динамика на историю для включения и выключения звука. Также доступно в меню с тремя точками";
+"Adds the eye button to story overlays. Off keeps seen blocking on without the button" = "Добавляет кнопку глаза в интерфейс историй. Если выключено, блокировка просмотров остаётся включённой, но без кнопки";
 "Advance on story like" = "Переходить дальше после лайка истории";
 "Advance on story reply" = "Переходить дальше после ответа на историю";
 "Advance when marking as seen" = "Переходить дальше при отметке как просмотренной";
@@ -475,10 +490,8 @@
 "Block all: all stories blocked — listed users are exceptions.\nBlock selected: only listed users are blocked — everything else is normal.\nBoth lists are saved independently." = "Блокировать всё: блокируются все истории — пользователи в списке являются исключениями.\nБлокировать выбранное: блокируются только пользователи в списке — всё остальное работает как обычно.\nОба списка сохраняются независимо.";
 "Blocking mode" = "Режим блокировки";
 "Button = single-tap mark seen. Toggle = tap toggles story read receipts on/off (eye fills blue when on)" = "Кнопка = одно нажатие отмечает как просмотренное. Переключатель = нажатие включает/выключает уведомления о просмотре историй (глаз становится синим, когда включено)";
-"Disable instants creation" = "Отключить создание instants";
 "Disable story seen receipt" = "Отключить уведомления о просмотре историй";
 "Enable story user list" = "Включить список пользователей историй";
-"Hides the functionality to create/send instants" = "Скрывает возможность создавать и отправлять instants";
 "Hides the notification for others when you view their story" = "Скрывает уведомление для других пользователей, когда вы смотрите их историю";
 "Inserts a button next to the seen/eye button on story overlays" = "Добавляет кнопку рядом с кнопкой просмотра/глаза в интерфейсе историй";
 "Keep stories visually seen locally" = "Помечать истории просмотренными только локально";
@@ -520,6 +533,7 @@
 "Story audio toggle" = "Переключатель звука истории";
 "Story user list" = "Список пользователей истории";
 "Tapping the eye button to mark a story as seen advances to the next story automatically" = "Нажатие кнопки глаза для отметки истории как просмотренной автоматически переключает на следующую историю";
+"This will send a story view receipt." = "Будет отправлено уведомление о просмотре истории.";
 "View story mentions" = "Посмотреть упоминания в истории";
 "Which stories get seen-receipt blocking" = "Для каких историй блокируются уведомления о просмотре";
 
@@ -528,16 +542,22 @@
 // Settings → Read receipts tab                                             //
 //////////////////////////////////////////////////////////////////////////////
 
-"Adds a button to DM threads to mark messages as seen" = "Добавляет кнопку в диалоги DM для отметки сообщений как просмотренных";
+"Adds the eye button to DM threads. Off keeps receipt blocking on without the button" = "Добавляет кнопку глаза в диалоги DM. Если выключено, блокировка уведомлений о прочтении остаётся включённой, но без кнопки";
 "Auto mark seen on interact" = "Авто-отметка при взаимодействии";
 "Auto mark seen on typing" = "Авто-отметка при наборе";
+"Blocks the auto read receipt — mark seen happens only when you choose" = "Блокирует автоматическое уведомление о прочтении — отметка как просмотренное отправляется только когда вы сами выбираете";
 "Control when messages are marked as seen" = "Управляет тем, когда сообщения отмечаются как просмотренные";
 "How the seen button behaves" = "Как работает кнопка просмотра";
 "Manually mark messages as seen" = "Вручную отмечать сообщения как просмотренные";
-"Marks messages as seen when you send any message" = "Отмечает сообщения как просмотренные при отправке любого сообщения";
+"Mark as seen?" = "Отметить как просмотренное?";
+"Mark as viewed?" = "Отметить как просмотренное?";
+"Marks messages as seen when you reply, react or send media" = "Отмечает сообщения как просмотренные при ответе, реакции или отправке медиа";
 "Marks messages as seen when you start typing" = "Отмечает сообщения как просмотренные, когда вы начинаете печатать";
 "Read receipt mode" = "Режим уведомлений о прочтении";
 "Read receipts" = "Уведомления о прочтении";
+"Show seen button" = "Показывать кнопку просмотра";
+"This will send a read receipt for the latest messages." = "Будет отправлено уведомление о прочтении для последних сообщений.";
+"This will send a view receipt for the current message." = "Будет отправлено уведомление о просмотре для текущего сообщения.";
 
 //////////////////////////////////////////////////////////////////////////////
 //                         MESSAGES — KEEP DELETED                          //
@@ -558,7 +578,7 @@
 "Confirmation dialog before clearing preserved messages" = "Подтверждение перед очисткой сохранённых сообщений";
 "Copies note text directly on long press without opening the menu" = "Копирует текст заметки сразу по удержанию без открытия меню";
 "Copy text on hold" = "Копировать текст по удержанию";
-"Adds a paintbrush button and long-press shortcut to pick custom background and text colors" = "Добавляет кнопку-кисть и долгое нажатие для выбора пользовательских цветов фона и текста";
+"Adds Background, Text and Emoji buttons to the note editor" = "Добавляет кнопки фона, текста и эмодзи в редактор заметки";
 "Custom note themes" = "Пользовательские темы заметок";
 "Disable vanish mode swipe" = "Отключить свайп для режима Vanish";
 "Disable typing status" = "Отключить статус набора";
@@ -595,6 +615,7 @@
 "Search, sort, swipe to remove or toggle keep-deleted" = "Поиск, сортировка, свайп для удаления или переключения keep-deleted";
 "Send audio as file" = "Отправлять аудио как файл";
 "Send files (experimental)" = "Отправка файлов (экспериментально)";
+"File sending not available" = "Отправка файлов недоступна";
 "Show full date instead of \"Active 2h ago\"" = "Показывать полную дату вместо \"Активен 2 ч. назад\"";
 "Shows a button in DM threads to add/remove chats from the list. Long-press for more options" = "Показывает кнопку в диалогах DM для добавления и удаления чатов из списка. Удерживайте для дополнительных опций";
 "Shows a notification pill when a message is unsent" = "Показывает метку-уведомление, когда сообщение отозвано";
@@ -612,7 +633,6 @@
 //////////////////////////////////////////////////////////////////////////////
 
 "%@%lu deleted" = "%@%lu удалено";
-"%lu messages from %lu users" = "%lu сообщений от %lu пользователей";
 "%lu selected" = "Выбрано: %lu";
 "Absolute date + time" = "Точная дата и время";
 "Adjust the filters or clear the search to see more." = "Измените фильтры или очистите поиск, чтобы увидеть больше.";
@@ -658,11 +678,33 @@
 "Nothing to save" = "Нечего сохранять";
 "Oldest first" = "Сначала старые";
 "Open log" = "Открыть журнал";
+"Group chat" = "Групповой чат";
+"%lu messages in %lu chats" = "%lu сообщений в %lu чатах";
+"%lu people · %lu deleted" = "%lu чел. · %lu удалено";
+"When someone unsends a message, it will appear here grouped by chat." = "Когда кто-то отменяет отправку сообщения, оно появится здесь, сгруппированное по чатам.";
+"Clear this chat" = "Очистить этот чат";
+"Clear log for this chat?" = "Очистить журнал этого чата?";
+"Removes every preserved deleted message from this group chat." = "Удаляет все сохранённые удалённые сообщения из этого группового чата.";
+"Reaction removed" = "Реакция удалена";
+"Log removed reactions" = "Записывать удалённые реакции";
+"Also records when someone removes a reaction, and which message it was on" = "Также записывает, когда кто-то удаляет реакцию и к какому сообщению она относилась.";
+"Removed a reaction" = "Удалил(а) реакцию";
+"on @%@: %@" = "на @%@: %@";
+"on: %@" = "на: %@";
+"a message" = "сообщение";
+"removed %@ on: %@" = "удалил %@ на: %@";
+"removed reaction %@" = "удалил реакцию %@";
+"%@ removed the %@ reaction." = "%@ удалил(а) реакцию %@.";
+"Removed %@" = "Удалено %@";
+"Someone" = "Кто-то";
+"Photo or video" = "Фото или видео";
+"Refresh names & photos" = "Обновить имена и фото";
+"Refreshing names & photos" = "Обновление имён и фото";
+"Records every message someone unsends, grouped by chat" = "Записывает каждое отменённое сообщение, группируя по чатам";
 "Open profile" = "Открыть профиль";
 "Original" = "Оригинал";
 "Play" = "Воспроизвести";
 "Post" = "Публикация";
-"Records every message someone unsends, grouped by sender" = "Записывает каждое отозванное сообщение, группируя по отправителю";
 "Reel" = "Reels";
 "Relative (1m / 3h / 3d ago)" = "Относительное (1 мин / 3 ч / 3 д назад)";
 "Removes every preserved deleted message and its captured media for the current account. This cannot be undone." = "Удаляет все сохранённые удалённые сообщения и их медиа для текущего аккаунта. Действие необратимо.";
@@ -686,14 +728,19 @@
 "View" = "Просмотр";
 "Voice" = "Голос";
 "When enabled, deleted messages and their media are saved on this device. Toggle off and clear the log to wipe history." = "Когда включено, удалённые сообщения и их медиа сохраняются на этом устройстве. Отключите и очистите журнал, чтобы стереть историю.";
-"When someone unsends a message, it will appear here grouped by sender." = "Когда кто-то отзовёт сообщение, оно появится здесь сгруппированным по отправителю.";
 
 //////////////////////////////////////////////////////////////////////////////
 //                                 MESSAGES                                 //
 // Settings → Messages tab                                                  //
 //////////////////////////////////////////////////////////////////////////////
 
+"Bypass \"You can't send messages\"" = "Обход «Вы не можете отправлять сообщения»";
+"Removes the blocked composer banner and restores the text input in restricted threads" = "Убирает баннер заблокированного поля ввода и восстанавливает ввод текста в ограниченных чатах";
 "Custom chat background" = "Свой фон чата";
+"DM Save button" = "Кнопка сохранения в Директе";
+"Make Instagram's built-in Save button on DM photos & videos download to Photos, the Gallery, or Share" = "Кнопка сохранения Instagram на фото и видео в Директе будет сохранять в «Фото», Галерею или «Поделиться»";
+"Reroute native Save" = "Переопределить кнопку сохранения";
+"Save media" = "Сохранить медиа";
 "Incoming calls stay silent — no ring, no screen, no notification" = "Входящие звонки остаются беззвучными — без звонка, экрана и уведомления";
 "Messages" = "Сообщения";
 "Silence incoming calls" = "Заглушать входящие звонки";
@@ -709,12 +756,17 @@
 "Adds a gallery button to the instants camera so you can send a photo from your album" = "Добавляет кнопку галереи в камеру instants, чтобы отправить фото из альбома";
 "Adds a RyukGram action button to the instants viewer header with expand, save, share, and bulk-save entries" = "Добавляет кнопку действий RyukGram в заголовок просмотрщика Instants с пунктами для развёртывания, сохранения, отправки и массового сохранения";
 "All loaded instants" = "Все загруженные Instants";
+"Auto advance after reaction" = "Автопереход после реакции";
+"Automatically moves to the next instant after you like or react" = "Автоматически переходит к следующему Instant после лайка или реакции";
 "Bypasses the Instants screenshot block" = "Снимает блокировку скриншотов в Instants";
 "Could not locate the instant on screen" = "Не удалось найти Instant на экране";
 "Current instant" = "Текущий Instant";
 "In-app Gallery" = "Встроенная галерея";
 "Instant" = "Мгновенно";
 "Instants" = "Моменты";
+"Auto-saved instants log" = "Журнал автосохранённых инстантов";
+"Auto-save instants" = "Автосохранение инстантов";
+"Automatically saves every instant you view, including as you swipe — each one only once" = "Автоматически сохраняет каждый просмотренный инстант, в том числе при свайпе — каждый только один раз";
 "Instants action button" = "Кнопка действий Instants";
 "No instants currently loaded" = "Сейчас нет загруженных Instants";
 "No media available to save" = "Нет медиа для сохранения";
@@ -734,19 +786,10 @@
 //////////////////////////////////////////////////////////////////////////////
 
 "Also hide the bottom tab bar — only the inbox is visible" = "Также скрыть нижнюю панель вкладок — видна только папка входящих";
-"Hide create tab" = "Скрыть вкладку создания";
-"Hide explore tab" = "Скрыть вкладку Explore";
-"Hide feed tab" = "Скрыть вкладку ленты";
-"Hide messages tab" = "Скрыть вкладку сообщений";
-"Hide reels tab" = "Скрыть вкладку рилсов";
+"Hide search tab" = "Скрыть вкладку поиска";
+"Remove the search/explore button from the tab bar" = "Убрать кнопку поиска/обзора с панели вкладок";
 "Hide tab bar" = "Скрыть панель вкладок";
 "Hides every tab except DM inbox + profile and forces launch into the inbox. Settings shortcut moves to long-press on the inbox tab." = "Скрывает все вкладки, кроме входящих DM и профиля, и принудительно запускает приложение во входящих. Быстрый доступ к настройкам переносится на долгое нажатие по вкладке входящих.";
-"Hides the create tab on the bottom navigation bar" = "Скрывает вкладку создания на нижней панели навигации";
-"Hides the direct messages tab on the bottom navigation bar" = "Скрывает вкладку личных сообщений на нижней панели навигации";
-"Hides the explore/search tab on the bottom navigation bar" = "Скрывает вкладку Explore/поиска на нижней панели навигации";
-"Hides the feed/home tab on the bottom navigation bar" = "Скрывает вкладку ленты/Home на нижней панели навигации";
-"Hides the reels tab on the bottom navigation bar" = "Скрывает вкладку рилсов на нижней панели навигации";
-"Hiding tabs" = "Скрытие вкладок";
 "Icon order" = "Порядок иконок";
 "Launch tab" = "Стартовая вкладка";
 "Lets you swipe to switch between navigation bar tabs" = "Позволяет переключаться между вкладками панели навигации свайпом";
@@ -756,6 +799,8 @@
 "Swipe between tabs" = "Свайп между вкладками";
 "Tab the app opens to. Ignored when Messages-only is on" = "Вкладка, с которой открывается приложение. Игнорируется, если включён режим только сообщений";
 "The order of the icons on the bottom navigation bar" = "Порядок иконок на нижней панели навигации";
+"Drag the ≡ handle to reorder tabs. Toggle a tab off to hide it from the bottom navigation bar." = "Перетаскивайте маркер ≡, чтобы изменить порядок вкладок. Отключите вкладку, чтобы скрыть её из нижней панели навигации.";
+"This will restore the default tab order and unhide all tabs." = "Это восстановит порядок вкладок по умолчанию и вернёт все скрытые вкладки.";
 "Turn IG into a DM-only client" = "Превратить IG в клиент только для DM";
 
 //////////////////////////////////////////////////////////////////////////////
@@ -768,6 +813,8 @@
 "Comments & posts" = "Комментарии и публикации";
 "Confirm actions" = "Подтверждение действий";
 "Confirm changing theme" = "Подтверждать смену темы";
+"Confirm disappearing media mark as viewed" = "Подтверждать отметку исчезающих сообщений как просмотренных";
+"Confirm DM mark as seen" = "Подтверждать отметку DM как прочитанных";
 "Confirm follow" = "Подтверждать подписку";
 "Confirm follow requests" = "Подтверждать запросы на подписку";
 "Confirm Instants capture" = "Подтверждать съёмку Instants";
@@ -783,6 +830,7 @@
 "Confirm sticker interaction (stories)" = "Подтверждать взаимодействие со стикером (истории)";
 "Confirm story emoji reaction" = "Подтверждать эмодзи-реакцию на историю";
 "Confirm story like" = "Подтверждать лайк истории";
+"Confirm story mark as seen" = "Подтверждать отметку истории как просмотренной";
 "Confirm switching Instant" = "Подтверждать переключение Instant";
 "Confirm unfollow" = "Подтверждать отписку";
 "Confirm vanish mode" = "Подтверждать режим исчезновения";
@@ -796,6 +844,9 @@
 "Reactions" = "Реакции";
 "Send to group chat?" = "Отправить в групповой чат?";
 "Shows an alert before creating/sending to a group chat from the share sheet" = "Показывает подтверждение перед созданием/отправкой в групповой чат из меню «Поделиться»";
+"Shows an alert before marking a disappearing message as viewed" = "Показывает подтверждение перед отметкой исчезающего сообщения как просмотренного";
+"Shows an alert before sending a read receipt from the DM seen button or menu" = "Показывает подтверждение перед отправкой уведомления о прочтении с кнопки просмотра DM или из меню";
+"Shows an alert before sending a story view receipt from the eye button or menu" = "Показывает подтверждение перед отправкой уведомления о просмотре истории с кнопки глаза или из меню";
 "Shows an alert before sending an emoji reaction on a note" = "Показывает подтверждение перед отправкой эмодзи-реакции на заметку";
 "Shows an alert before sending an emoji reaction on a story" = "Показывает подтверждение перед отправкой эмодзи-реакции на историю";
 "Shows an alert before sending an emoji reaction on an Instant" = "Показывает подтверждение перед отправкой эмодзи-реакции на Instant";
@@ -977,7 +1028,16 @@
 "Could not write backup file." = "Не удалось записать файл резервной копии.";
 "Could not write extracted file." = "Не удалось записать извлечённый файл.";
 "Existing data for the ticked items will be replaced. A restart may be needed for everything to take effect." = "Существующие данные для отмеченных пунктов будут заменены. Может потребоваться перезапуск, чтобы всё вступило в силу.";
-"Export or import RyukGram data — settings, per-account filters, hidden & locked chats, Profile Analyzer, gallery, chat backgrounds and deleted messages. Pick any combination on each page. Settings stay a plain JSON file; bundles with media export as a compressed .ryukbak." = "Экспорт или импорт данных RyukGram — настройки, фильтры по аккаунтам, скрытые и заблокированные чаты, Анализатор профилей, галерея, фоны чатов и удалённые сообщения. Выбирайте любое сочетание на каждой странице. Настройки сохраняются в обычный файл JSON; пакеты с медиа экспортируются как сжатый .ryukbak.";
+"Export or import RyukGram data — settings, per-account filters, hidden & locked chats, Profile Analyzer, gallery, chat backgrounds, deleted messages and the read receipts log. Pick any combination on each page. Settings stay a plain JSON file; bundles with media export as a compressed .ryukbak." = "Экспорт или импорт данных RyukGram — настройки, фильтры по аккаунтам, скрытые и заблокированные чаты, Анализатор профилей, галерея, фоны чатов, удалённые сообщения и журнал прочтений. Выбирайте любое сочетание на каждой странице. Настройки сохраняются в обычный файл JSON; пакеты с медиа экспортируются как сжатый .ryukbak.";
+"Feature data" = "Данные функций";
+"Import mode" = "Режим импорта";
+"Merge" = "Объединить";
+"Replace" = "Заменить";
+"Add the backup's data to what's already here" = "Добавляет данные резервной копии к уже имеющимся";
+"Clear existing data, then apply the backup" = "Очищает текущие данные, затем применяет резервную копию";
+"Merge keeps what's on this device and adds the backup's data — duplicates are combined, including the gallery." = "Объединение сохраняет данные на этом устройстве и добавляет данные из копии — дубликаты объединяются, включая галерею.";
+"Replace clears existing data for each ticked item, then applies the backup." = "Замена очищает существующие данные каждого отмеченного пункта, затем применяет копию.";
+"The backup will be merged into your existing data — nothing is deleted, duplicates are combined. A restart may be needed for everything to take effect." = "Резервная копия будет объединена с вашими данными — ничего не удаляется, дубликаты объединяются. Для полного применения может потребоваться перезапуск.";
 "Hidden & locked chats" = "Скрытые и заблокированные чаты";
 "Import" = "Импорт";
 "Inspect the full manifest" = "Просмотреть полный манифест";
@@ -1011,6 +1071,11 @@
 "Clearing cache…" = "Очистка кэша…";
 "Clearing still scans on demand." = "Очистка по-прежнему сканирует по запросу.";
 "Daily" = "Ежедневно";
+"All tweak options are disabled" = "Все опции твика отключены";
+"Disable all tweak options" = "Отключить все опции твика";
+"Instagram runs stock while this is on. Turn it back off to restore your settings." = "Пока включено, Instagram работает как обычно. Выключите, чтобы восстановить настройки.";
+"Tap to re-enable everything" = "Нажмите, чтобы снова включить всё";
+"Turn every feature off — your settings are kept" = "Отключить все функции — настройки сохранятся";
 "Disable safe mode" = "Отключить безопасный режим";
 "Enable tweak settings quick-access" = "Включить быстрый доступ к настройкам твика";
 "Fix duplicate notifications" = "Исправить дублирующиеся уведомления";
@@ -1088,6 +1153,7 @@
 "Delete an imported override and fall back to the shipped strings" = "Удалить импортированный файл и вернуться к встроенным строкам";
 "Deleted %@ override. Restart to apply." = "Файл %@ удалён. Перезапустите для применения.";
 "Enable FLEX gesture" = "Включить жест FLEX";
+"Enable file logging" = "Вести лог в файл";
 "Export strings" = "Экспортировать строки";
 "Hold 5 fingers on the screen to open FLEX" = "Удерживайте 5 пальцев на экране, чтобы открыть FLEX";
 "I have %@%@" = "У меня есть %@%@";
@@ -1095,6 +1161,9 @@
 "Import a .strings file to update a translation. Pick a language, select the file, restart." = "Импортируйте файл .strings, чтобы обновить перевод. Выберите язык, укажите файл и перезапустите приложение.";
 "Link Cell" = "Ячейка ссылки";
 "Localization" = "Локализация";
+"Log file is empty" = "Файл лога пуст";
+"Logging" = "Логирование";
+"Logs RyukGram's own activity to one shareable file across the app and its extensions. Off by default — turn it on, reproduce the issue, then share." = "Записывает собственную активность RyukGram в один общий файл в приложении и его расширениях. По умолчанию выключено — включите, воспроизведите проблему и поделитесь.";
 "Menu Cell" = "Ячейка меню";
 "Navigation Cell" = "Ячейка навигации";
 "No imported localization files to reset." = "Нет импортированных файлов локализации для сброса.";
@@ -1106,6 +1175,7 @@
 "Pick a language to delete the imported file" = "Выберите язык, чтобы удалить импортированный файл";
 "Pick a language to export" = "Выберите язык для экспорта";
 "Reset localization" = "Сбросить локализацию";
+"Share log file" = "Поделиться файлом лога";
 "Pick a language and share its .strings file" = "Выберите язык, чтобы поделиться его файлом .strings";
 "Static Cell" = "Статическая ячейка";
 "Stepper cell" = "Ячейка степпера";
@@ -1232,6 +1302,7 @@
 "Inserts an eye button to mark the current disappearing media as viewed" = "Добавляет кнопку-глаз для отметки текущего исчезающего медиа как просмотренного";
 "Link copied" = "Ссылка скопирована";
 "Mark as viewed" = "Отметить как просмотренное";
+"Marking as viewed advances to the next stacked media instead of closing" = "Отметка как просмотренного переключает на следующий медиафайл в стопке вместо закрытия";
 "Mark messages as seen" = "Отметить сообщения как просмотренные";
 "Mark seen" = "Отметить просмотр";
 "Marked as viewed" = "Отмечено как просмотренное";
@@ -1319,6 +1390,19 @@
 "Enter a username, chat name, or thread ID." = "Введите имя пользователя, название чата или ID треда.";
 "Group" = "Группа";
 "Image Settings" = "Настройки изображения";
+"Auto bubble color" = "Авто-цвет пузырьков";
+"Bubble color" = "Цвет пузырьков";
+"Me" = "Я";
+"Both" = "Оба";
+"Gradient" = "Градиент";
+"Direction" = "Направление";
+"Vertical" = "Вертикально";
+"Horizontal" = "Горизонтально";
+"Diagonal" = "Диагонально";
+"Text color" = "Цвет текста";
+"Automatic (contrast)" = "Автоматически (контраст)";
+"Choose color…" = "Выбрать цвет…";
+"Tap to apply · hold to edit" = "Нажмите, чтобы применить · удерживайте для изменения";
 "Library" = "Библиотека";
 "Library, default, and per-chat overrides will be deleted." = "Библиотека, фон по умолчанию и настройки чатов будут удалены.";
 "No Custom" = "Без своего";
@@ -1409,6 +1493,11 @@
 //////////////////////////////////////////////////////////////////////////////
 
 " BETA " = " BETA ";
+"%lu of %lu checks on" = "Включено проверок: %lu из %lu";
+"Checks" = "Проверки";
+"Pick which categories each scan computes. A disabled check is greyed out and skipped — it won't be calculated or shown." = "Выберите, какие категории вычисляет каждое сканирование. Отключённая проверка отображается серой и пропускается — она не вычисляется и не отображается.";
+"Snapshot saved" = "Снимок сохранён";
+"Your current scan was archived" = "Текущее сканирование перенесено в архив";
 "%@ %lu accounts? The first %ld will be processed to avoid rate limits." = "%@ %lu аккаунт(ов)? Обработаны будут первые %ld, чтобы не упереться в лимиты.";
 "%@ %lu accounts? This runs sequentially with a short pause between each." = "%@ %lu аккаунт(ов)? Запускается последовательно с небольшой паузой между каждым.";
 "%@ followers · %@ following" = "%@ подписчиков · %@ подписок";
@@ -1454,7 +1543,6 @@
 "Filter · %lu" = "Фильтр · %lu";
 "First scan: %@" = "Первый анализ: %@";
 "First scan: we collect your followers and following lists and save them locally." = "Первый анализ: собираем ваши списки подписчиков и подписок и сохраняем их локально.";
-"Follow %lu" = "Подписаться на %lu";
 "Follower count exceeds %ld — analysis disabled to avoid rate limits." = "Число подписчиков больше %ld — анализ отключён, чтобы не упереться в лимиты API.";
 "Followers" = "Подписчики";
 "Following… %lu / %lu" = "Подписка… %lu / %lu";
@@ -1472,6 +1560,9 @@
 "Mutual followers" = "Взаимные подписчики";
 "Name: %@ → %@" = "Имя: %@ → %@";
 "New followers" = "Новые подписчики";
+"NEW" = "НОВОЕ";
+"New first" = "Сначала новые";
+"New only" = "Только новые";
 "No active Instagram session found" = "Активная сессия Instagram не найдена";
 "No results" = "Нет результатов";
 "No scan yet" = "Анализа ещё нет";
@@ -1574,7 +1665,13 @@
 "Follow default" = "Следовать значению по умолчанию";
 "Force OFF (allow unsends)" = "Принудительно ВЫКЛ. (разрешить отзыв)";
 "Force ON (preserve unsends)" = "Принудительно ВКЛ. (сохранять отозванные)";
-"Include seconds when the format already shows time." = "Включать секунды, когда формат уже показывает время.";
+"Include seconds when the format already shows time. The custom format controls seconds itself with {ss}." = "Включать секунды, когда формат уже показывает время. Пользовательский формат сам управляет секундами через {ss}.";
+"Add custom format…" = "Добавить пользовательский формат…";
+"Edit" = "Изменить";
+"Template" = "Шаблон";
+"Placeholders" = "Заполнители";
+"Placeholders are replaced with date parts; anything else is shown as-is." = "Заполнители заменяются частями даты; всё остальное отображается как есть.";
+"Tap a placeholder to insert it at the cursor." = "Нажмите на заполнитель, чтобы вставить его в позицию курсора.";
 "Included chats" = "Включённые чаты";
 "Included users" = "Включённые пользователи";
 "KD: default" = "KD: по умолчанию";
@@ -1765,16 +1862,21 @@
 "Audio ready" = "Аудио готово";
 "Download video at the highest available quality" = "Скачивать видео в максимально доступном качестве";
 "Downloads HD video via DASH streams and encodes to H.264. Requires FFmpegKit." = "Скачивает HD-видео через DASH-потоки и кодирует в H.264. Требуется FFmpegKit.";
+"Encoding in software" = "Кодирование программно";
 "Encoding speed" = "Скорость кодирования";
 "Enhanced downloads" = "Расширенные загрузки";
 "Faster = lower quality" = "Быстрее = ниже качество";
 "FFmpeg not available" = "FFmpeg недоступен";
 "FFmpegKit is not available. Install the sideloaded IPA or the _ffmpeg .deb variant to enable." = "FFmpegKit недоступен. Сайдлоуните IPA или установите файл .deb с _ffmpeg, чтобы включить эту функцию.";
+"Hardware encoder isn't available in the background — your quality settings were kept." = "Аппаратный кодировщик недоступен в фоне — ваши настройки качества сохранены.";
 "No audio track found" = "Аудиодорожка не найдена";
 "Photo" = "Фото";
 "Photo quality" = "Качество фото";
+"Size unknown" = "Размер неизвестен";
+"calculating size…" = "вычисление размера…";
 "silent" = "без звука";
 "Use highest resolution available" = "Использовать максимально доступное разрешение";
+"Video encoder locked up — restart Instagram to encode again" = "Видеокодировщик завис — перезапустите Instagram, чтобы кодировать снова";
 "Video quality" = "Качество видео";
 "Which quality to download" = "Какое качество скачивать";
 
@@ -2100,6 +2202,13 @@
 "Stack size" = "Размер стопки";
 "Duration" = "Длительность";
 "Default surface" = "Поверхность по умолчанию";
+"System notifications" = "Системные уведомления";
+"Mirror to notification centre" = "Дублировать в центр уведомлений";
+"While the app is in the background, toasts are delivered to the iOS notification centre instead so they aren't missed." = "Пока приложение в фоне, тосты доставляются в центр уведомлений iOS, чтобы вы их не пропустили.";
+"Clear when app opens" = "Очищать при открытии";
+"Remove mirrored notifications from notification centre when you return to the app." = "Удалять дублированные уведомления из центра уведомлений при возврате в приложение.";
+"Background mirror" = "Фоновое дублирование";
+"Uses Instagram's notification permission. Per-action overrides live in each action's menu under Background mirror; actions set to Off never mirror." = "Использует разрешение Instagram на уведомления. Настройки для каждого действия — в меню действия, пункт Фоновое дублирование; действия со значением Выкл никогда не дублируются.";
 "Enable notifications" = "Включить уведомления";
 "Haptic feedback" = "Тактильная отдача";
 "Preview pill" = "Превью плашки";
@@ -2138,8 +2247,10 @@
 "Errors" = "Ошибки";
 "Download progress" = "Прогресс загрузки";
 "Bulk download progress" = "Прогресс массовой загрузки";
+"Repost progress" = "Прогресс репоста";
 "Copied post / reel URL" = "URL поста / рилса скопирован";
 "Copied comment text" = "Текст комментария скопирован";
+"Copied GIF link" = "Ссылка на GIF скопирована";
 "Copied note text" = "Текст заметки скопирован";
 "Copied profile info" = "Информация профиля скопирована";
 "Copied audio URL" = "URL аудио скопирован";
@@ -2148,25 +2259,38 @@
 "Copied description text" = "Текст описания скопирован";
 "DM seen / read receipts" = "Прочтение / просмотры в DM";
 "Story seen / read receipts" = "Прочтение / просмотры историй";
+"Someone read your message" = "Кто-то прочитал ваше сообщение";
 "User blocked / unblocked" = "Пользователь заблокирован / разблокирован";
 "Chat added / removed from exclude" = "Чат добавлен / удалён из исключений";
 "Story user added / removed from exclude" = "Пользователь историй добавлен / удалён из исключений";
 "Share-sheet recipient pinned" = "Получатель в листе поделиться закреплён";
 "Unsent message detected" = "Обнаружено отозванное сообщение";
+"Reaction removed detected" = "Обнаружено удаление реакции";
+"%lu messages unsent" = "%lu сообщений отозвано";
+"%lu reactions removed" = "%lu реакций удалено";
+"%lu chats marked seen" = "%lu чатов отмечено прочитанными";
+"%lu stories marked seen" = "%lu историй отмечено просмотренными";
+"%lu of your messages read" = "%lu ваших сообщений прочитано";
+"%lu notifications" = "%lu уведомлений";
 "Live comments toggled" = "Комментарии в эфире переключены";
 "Custom GIF sent" = "Кастомный GIF отправлен";
+"GIF favorited / unfavorited" = "GIF добавлен / убран из избранного";
 "Voice DM sent" = "Голосовое DM отправлено";
 "Audio extraction status" = "Статус извлечения аудио";
 "Profile Analyzer complete" = "Анализ профиля завершён";
+"Profile Analyzer progress" = "Ход анализа профиля";
 "Media extraction failed" = "Не удалось извлечь медиа";
 "Permission denied" = "Доступ запрещён";
 "Validation error" = "Ошибка валидации";
 "Network / API error" = "Ошибка сети / API";
 "Action error fallback" = "Резервная ошибка действия";
+"Unlock failed" = "Не удалось разблокировать";
+"Chat locked / unlocked" = "Чат заблокирован / разблокирован";
 "Invalid clipboard link" = "Неверная ссылка из буфера";
 "Experimental flag warning" = "Предупреждение об экспериментальном флаге";
 "Settings action confirmed" = "Действие в настройках подтверждено";
 "Cache clearing progress" = "Очистка кэша";
+"Backup export / import" = "Экспорт / импорт резервной копии";
 "Other / uncategorized" = "Прочее / без категории";
 "Comment copied" = "Комментарий скопирован";
 "FFmpeg log copied" = "Лог FFmpeg скопирован";
@@ -2189,7 +2313,7 @@
 "Tap a preset to make it active. Swipe left to delete." = "Нажмите пресет, чтобы активировать. Смахните влево для удаления.";
 "Override Instagram location reads." = "Переопределяет чтение местоположения Instagram.";
 "Show the quick button in Friends Map." = "Показывать быструю кнопку в Карте друзей.";
-"Pick how absolute dates are written. “Default” leaves IG's own format untouched." = "Выберите формат абсолютных дат. “По умолчанию” оставляет формат IG без изменений.";
+"Pick how absolute dates are written. “Default” leaves IG's own format untouched. Swipe a custom format to edit or delete it." = "Выберите формат абсолютных дат. “По умолчанию” оставляет формат IG без изменений. Смахните пользовательский формат, чтобы изменить или удалить его.";
 "Dates younger than the threshold show as relative time. Older dates fall back to the absolute format. “Combine with date” shows both — “Jan 5, 2026 (2h)” or “2h – Jan 5, 2026”." = "Даты младше порога отображаются как относительное время. Более старые даты используют абсолютный формат. «Объединить с датой» показывает оба — «5 янв 2026 (2ч)» или «2ч – 5 янв 2026».";
 "Compact style" = "Компактный стиль";
 "Example: “1h” instead of “1 hour ago”" = "Пример: “1h” вместо “1 час назад”";
@@ -2200,3 +2324,184 @@
 "Relative – absolute" = "Относительное – абсолютное";
 "Relative when young, absolute when older." = "Относительное для недавних, абсолютное для старых.";
 "Example: “2h – Jan 5, 2026”" = "Пример: «2ч – 5 янв 2026»";
+"Catch view-once media unsent while you're away. ⚠️ May drain battery" = "Перехват одноразовых медиа, отменённых в ваше отсутствие. ⚠️ Может разряжать батарею";
+"Disappearing (view-once) media" = "Исчезающие медиа (одноразовый просмотр)";
+"Disappearing media expired before it could be saved" = "Исчезающие медиа истекли до того, как их удалось сохранить";
+"Disappearing media — gone before it could be saved" = "Исчезающие медиа — пропали до того, как их удалось сохранить";
+"Disappearing only" = "Только исчезающие";
+"Forces Instagram to keep running in the background so it can capture disappearing media that someone unsends while you're not in the app.\n\nMainly useful for view-once media — normal photos/videos are usually still recoverable without it. ⚠️ May significantly drain your battery, and can't capture anything if you force-quit Instagram from the app switcher.\n\nEnable it?" = "Заставляет Instagram продолжать работать в фоне, чтобы перехватывать исчезающие медиа, которые кто-то отменяет, пока вас нет в приложении.\n\nВ основном полезно для одноразовых медиа — обычные фото/видео обычно можно восстановить и без этого. ⚠️ Может существенно разряжать батарею и ничего не перехватит, если вы закроете Instagram через переключатель приложений.\n\nВключить?";
+"Keep Instagram active in background" = "Держать Instagram активным в фоне";
+"Media couldn’t be downloaded — the link expired" = "Не удалось загрузить медиа — срок действия ссылки истёк";
+"Media wasn’t available to save" = "Медиа недоступно для сохранения";
+"Retrying download…" = "Повторная загрузка…";
+"Try to download again" = "Попробовать загрузить снова";
+"%lu followers removed" = "%lu подписчиков удалено";
+"Batch remove followers" = "Массовое удаление подписчиков";
+"Batch remove followers finished" = "Массовое удаление подписчиков завершено";
+"Follow back" = "Подписаться в ответ";
+"Remove @%@ as a follower?" = "Удалить @%@ из подписчиков?";
+"Remove follower" = "Удалить подписчика";
+"Removing… %lu / %lu" = "Удаление… %lu / %lu";
+
+//////////////////////////////////////////////////////////////////////////
+//                            READ RECEIPTS                              //
+//////////////////////////////////////////////////////////////////////////
+
+"Read receipts log" = "Журнал прочтений";
+"Date" = "Дата";
+"Reads" = "Прочтения";
+"Person" = "Человек";
+"Chat" = "Чат";
+"%@ · on @%@" = "%@ · в @%@";
+"%lu read · %@" = "%lu прочтение · %@";
+"%lu reads · %@" = "%lu прочтений · %@";
+"%lu reads · %lu reader · %@" = "%lu прочтений · %lu читатель · %@";
+"%lu reads · %lu readers · %@" = "%lu прочтений · %lu читателей · %@";
+"Browse who read your messages, grouped by person" = "Кто прочитал ваши сообщения, по людям";
+"Clear all" = "Очистить всё";
+"Clear all records" = "Очистить все записи";
+"Clear read receipts?" = "Очистить прочтения?";
+"Detects when others read your messages and notifies you" = "Определяет, когда другие читают ваши сообщения, и уведомляет";
+"Ignored people & chats" = "Игнорируемые люди и чаты";
+"Ignored" = "Игнорируется";
+"Log group chats" = "Записывать групповые чаты";
+"Most reads" = "Больше прочтений";
+"No read receipts yet.\nWhen someone reads a message you sent, it shows up here." = "Прочтений пока нет.\nКогда кто-то прочитает ваше сообщение, оно появится здесь.";
+"Notifies and records when someone reads a message you sent" = "Уведомляет и записывает, когда кто-то читает ваше сообщение";
+"Nothing is ignored. Long-press someone in the log to stop logging them." = "Ничего не игнорируется. Удерживайте человека в журнале, чтобы перестать его записывать.";
+"Nothing matches your filters." = "Ничего не соответствует фильтрам.";
+"Read %@ · %@" = "Прочитано %@ · %@";
+"Record reads on this device. Off = notifications only, nothing stored" = "Сохранять прочтения на устройстве. Выкл = только уведомления, без хранения";
+"Resume logging" = "Возобновить запись";
+"Save to log" = "Сохранять в журнал";
+"Search by username" = "Поиск по имени пользователя";
+"Stop logging %@" = "Не записывать %@";
+"Delete records" = "Удалить записи";
+"When enabled, a notification fires when someone reads your message. Turn off \"Save to log\" for toast-only mode. Long-press a person in the log to stop logging them." = "Когда включено, приходит уведомление, когда кто-то читает ваше сообщение. Отключите \"Сохранять в журнал\" для режима только уведомлений. Долгое нажатие на человека в журнале — перестать его записывать.";
+"Swipe to remove. Removing resumes logging for that person or chat." = "Смахните, чтобы удалить. Удаление возобновит запись для этого человека или чата.";
+"This removes all recorded reads on this device." = "Это удалит все записанные прочтения на этом устройстве.";
+"Updating names and photos" = "Обновление имён и фото";
+"Your message" = "Ваше сообщение";
+"read your message in %@" = "прочитал(а) ваше сообщение в %@";
+"read your message" = "прочитал(а) ваше сообщение";
+"Also track reads in group chats. Off by default — groups can be noisy" = "Отслеживать прочтения и в группах. По умолчанию выкл — в группах много активности";
+"Refreshing…" = "Обновление…";
+"Pinned" = "Закреплённые";
+"Liked the story" = "Лайкнули историю";
+"Default (recent first)" = "По умолчанию (сначала новые)";
+"Liked first" = "Сначала с лайком";
+"Load all viewers" = "Загрузить всех зрителей";
+"%lu viewers" = "Зрителей: %lu";
+"Viewer pinned" = "Зритель закреплён";
+"Viewer unpinned" = "Зритель откреплён";
+"Pin a viewer" = "Закрепить зрителя";
+"Pin order" = "Порядок закрепления";
+"Pin this viewer?" = "Закрепить этого зрителя?";
+"Filter, sort & pin viewers" = "Фильтр, сортировка и закрепление зрителей";
+"Adds controls to your story viewers list" = "Добавляет элементы управления в список зрителей вашей истории";
+"Add by username, remove, reorder" = "Добавить по имени пользователя, удалить, изменить порядок";
+"Pinned viewers (%lu)" = "Закреплённые зрители (%lu)";
+"Viewers list" = "Список зрителей";
+"Settings are saved and reused next time." = "Настройки сохраняются и применяются в следующий раз.";
+"Tick several to combine them. Pinned viewers always stay on top and ignore these filters." = "Отметьте несколько, чтобы объединить их. Закреплённые зрители всегда остаются вверху и игнорируют эти фильтры.";
+"Pinned viewers" = "Закреплённые зрители";
+"Pin" = "Закрепить";
+"On the 'who viewed my story' list, adds a filter/sort button (bottom-right) with sticky settings. Long-press a viewer to pin them. Pinned viewers always show at the top — even before they view your story." = "В списке «кто смотрел мою историю» добавляет кнопку фильтра/сортировки (внизу справа) с сохраняемыми настройками. Удерживайте зрителя, чтобы закрепить его. Закреплённые зрители всегда отображаются вверху — даже до того, как посмотрят вашу историю.";
+"Username or raw user PK. Pinned users always show at the top of your story viewers, even before they view it." = "Имя пользователя или сырой PK. Закреплённые пользователи всегда показываются вверху списка зрителей вашей истории, даже до её просмотра.";
+
+//////////////////////////////////////////////////////////////////////////////
+//                               DEVICE ID                                  //
+// Settings -> Advanced -> Device ID, and the login-screen Device ID button //
+//////////////////////////////////////////////////////////////////////////////
+"Roll a new fingerprint" = "Сгенерировать новый отпечаток";
+"New device fingerprint" = "Новый отпечаток устройства";
+"New ID only" = "Только новый ID";
+"New ID + clear IG data" = "Новый ID + очистить данные IG";
+"Fresh random device ID + FDID" = "Новые случайные ID устройства и FDID";
+"Enter ID manually…" = "Ввести ID вручную…";
+"Manual device ID" = "ID устройства вручную";
+"Paste or type the UUID this device should report." = "Вставьте или введите UUID, который должно сообщать это устройство.";
+"Device ID set" = "ID устройства задан";
+"Identity masked" = "Идентификатор замаскирован";
+"Copy current ID" = "Скопировать текущий ID";
+"Revert to my real device ID" = "Вернуть мой настоящий ID устройства";
+"Restore the original, stop masking" = "Восстановить оригинал и прекратить маскировку";
+"Spoofing off" = "Подмена выключена";
+"Relaunch now" = "Перезапустить сейчас";
+"Relaunch to apply" = "Перезапустите, чтобы применить";
+"Clear device & relaunch" = "Очистить устройство и перезапустить";
+"Clear device & relaunch?" = "Очистить устройство и перезапустить?";
+"Clear & relaunch" = "Очистить и перезапустить";
+"Strongest — full device reset" = "Самое сильное — полный сброс устройства";
+"Device ID" = "ID устройства";
+"Device identity" = "Идентификатор устройства";
+"Masked" = "Замаскирован";
+"Real" = "Настоящий";
+"Show button on login screen" = "Показывать кнопку на экране входа";
+"Floating Device ID button while signed out" = "Плавающая кнопка ID устройства, когда вы не вошли";
+"Masks the device fingerprint Instagram sends (device ID + family device ID). Changes take effect after a relaunch. The same button also appears on the login screen." = "Маскирует отпечаток устройства, отправляемый Instagram (ID устройства + семейный ID устройства). Изменения вступают в силу после перезапуска. Та же кнопка появляется и на экране входа.";
+"Also clear Instagram's saved logins and stored device IDs? This logs you out and relaunches as a fresh device." = "Также очистить сохранённые входы Instagram и сохранённые идентификаторы устройства? Это выполнит выход и перезапустит приложение как новое устройство.";
+"Forgets every saved login, cookie and the stored device identity, then relaunches so Instagram starts as a brand-new device. You'll sign in again afterwards." = "Забывает все сохранённые входы, файлы cookie и сохранённый идентификатор устройства, затем перезапускает приложение, чтобы Instagram запустился как совершенно новое устройство. После этого нужно будет войти снова.";
+
+//////////////////////////////////////////////////////////////////////////
+//                         FOLLOW REQUESTS TRACKER                        //
+// Settings → Follow Requests Tracker                                     //
+//////////////////////////////////////////////////////////////////////////
+"Follow Requests Tracker" = "Трекер запросов на подписку";
+"Follow Requests" = "Запросы на подписку";
+"Show follow requests" = "Показать запросы на подписку";
+"Check now" = "Проверить сейчас";
+"Reset tracked data" = "Сбросить отслеживаемые данные";
+"Enable tracker" = "Включить трекер";
+"Log requests and check outcomes" = "Записывать запросы и проверять результаты";
+"Logs follow requests you send and receive, and catches who cancels a request before you answer. All on-device." = "Записывает запросы на подписку, которые вы отправляете и получаете, и фиксирует, кто отменяет запрос до вашего ответа. Всё на устройстве.";
+"What to track" = "Что отслеживать";
+"Requests I send" = "Запросы, которые я отправляю";
+"To private accounts" = "В закрытые аккаунты";
+"Requests I receive" = "Запросы, которые я получаю";
+"From people who want to follow you" = "От людей, которые хотят на вас подписаться";
+"Background check" = "Фоновая проверка";
+"Check interval" = "Интервал проверки";
+"How often to check for outcomes while the app is open. Also checks on launch and when you open the list." = "Как часто проверять результаты, пока приложение открыто. Также проверяет при запуске и при открытии списка.";
+"Off (manual only)" = "Выкл. (только вручную)";
+"Every 15 minutes" = "Каждые 15 минут";
+"Every 30 minutes" = "Каждые 30 минут";
+"Every hour" = "Каждый час";
+"Every 6 hours" = "Каждые 6 часов";
+"My request accepted" = "Мой запрос принят";
+"A private account accepted you" = "Закрытый аккаунт принял вас";
+"My request declined" = "Мой запрос отклонён";
+"No longer pending" = "Больше не в ожидании";
+"New request received" = "Получен новый запрос";
+"Someone asked to follow you" = "Кто-то хочет на вас подписаться";
+"Request withdrawn" = "Запрос отозван";
+"Someone cancelled their request" = "Кто-то отменил свой запрос";
+"Sent by me" = "Отправленные мной";
+"Received" = "Получен";
+"Sent" = "Отправлен";
+"Accepted" = "Принят";
+"Rejected" = "Отклонён";
+"Requested" = "Запрошен";
+"Approved" = "Одобрен";
+"Withdrawn" = "Отозван";
+"No follow requests tracked yet" = "Пока нет отслеживаемых запросов";
+"Cancel requests" = "Отменить запросы";
+"Delete %lu record(s) from history?" = "Удалить записей из истории: %lu?";
+"Cancel %lu pending request(s)?" = "Отменить запросов в ожидании: %lu?";
+"Follow back %lu account(s)?" = "Подписаться в ответ на аккаунтов: %lu?";
+"Clear all tracked follow requests?" = "Очистить все отслеживаемые запросы на подписку?";
+"Reset tracked follow requests for this account?" = "Сбросить отслеживаемые запросы для этого аккаунта?";
+"Enable the tracker first" = "Сначала включите трекер";
+"Checking…" = "Проверка…";
+"%ld request(s) updated" = "Обновлено запросов: %ld";
+"No changes" = "Без изменений";
+"Working…" = "Выполняется…";
+"Follow request accepted" = "Запрос на подписку принят";
+"%@ accepted your request" = "%@ принял(а) ваш запрос";
+"Follow request declined" = "Запрос на подписку отклонён";
+"%@ is no longer pending" = "%@ больше не в ожидании";
+"New follow request" = "Новый запрос на подписку";
+"%@ asked to follow you" = "%@ хочет подписаться на вас";
+"Follow request withdrawn" = "Запрос на подписку отозван";
+"%@ withdrew their request" = "%@ отозвал(а) свой запрос";
+"Follow requests log" = "Журнал запросов на подписку";
